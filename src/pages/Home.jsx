@@ -137,7 +137,17 @@ function Home() {
           </div>
           <p>Scaled UCLA's NSDC chapter from 200 → 900+ members through 50+ workshops, hackathons, and training programs
           providing hands-on experience in Python, Tableau, NLP, and ML</p>
-          <a href="https://nsdcucla.com" target="_blank" rel="noopener noreferrer" className="nsdc-website-link">
+
+          <div style={{ backgroundColor: 'rgba(20, 184, 166, 0.1)', padding: '1.5rem', borderRadius: '8px', borderLeft: '4px solid #14b8a6', marginTop: '1.5rem' }}>
+            <p style={{ fontStyle: 'italic', color: '#d4d4d4', marginBottom: '0.5rem', lineHeight: '1.7' }}>
+              "I think learning is best hands on. We don't want to just be another class replacement. Our goal is to eliminate barriers completely so all students can access data science education."
+            </p>
+            <p style={{ color: '#888', fontSize: '0.9rem', margin: 0 }}>
+              — Milla Nielsen, <a href="https://dailybruin.com/2024/12/05/national-student-data-corps-creates-accessible-data-science-community-for-students" target="_blank" rel="noopener noreferrer" style={{ color: '#14b8a6', textDecoration: 'none' }}>Daily Bruin, December 2024</a>
+            </p>
+          </div>
+
+          <a href="https://nsdcucla.com" target="_blank" rel="noopener noreferrer" className="nsdc-website-link" style={{ marginTop: '1.5rem' }}>
             Visit NSDC UCLA Website →
           </a>
           <div style={{ marginTop: '1.5rem', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
