@@ -137,6 +137,13 @@ function Home() {
           </div>
           <p>Scaled UCLA's NSDC chapter from 200 → 900+ members through 50+ workshops, hackathons, and training programs
           providing hands-on experience in Python, Tableau, NLP, and ML</p>
+          <a href="https://nsdcucla.com" target="_blank" rel="noopener noreferrer" className="nsdc-website-link">
+            Visit NSDC UCLA Website →
+          </a>
+          <div style={{ marginTop: '1.5rem', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+            <img src="/nsdc_board_group_photo.png" alt="NSDC Board Group Photo" style={{ width: '70%', maxWidth: '600px', borderRadius: '8px', maxHeight: '300px', objectFit: 'cover' }} />
+            <p style={{ textAlign: 'center', color: '#888', fontSize: '0.9rem', marginTop: '0.5rem', fontStyle: 'italic' }}>NSDC Winter 2024 board trip to Getty Museum</p>
+          </div>
         </div>
 
         <div className="leadership-item">
@@ -149,6 +156,26 @@ function Home() {
           </div>
           <p>Managed 5+ consulting teams (35+ analysts total) serving 15 startup clients, building scalable processes to
           deliver data-driven solutions across quarterly project cycles</p>
+
+          <div style={{ marginTop: '1.5rem' }}>
+            <h4 style={{ color: '#14b8a6', fontSize: '1.1rem', marginBottom: '1rem' }}>Notable Projects Led:</h4>
+            <ul style={{ marginLeft: '1.5rem', lineHeight: '1.7', color: '#d4d4d4' }}>
+              <li><strong>Zeitios:</strong> Led NLP team building AI tutoring platform for software instruction using curriculum generation and dialogue systems</li>
+              <li><strong>Kickback:</strong> Analyzed Shopify user journey data to identify conversion drop-off points and designed improvement experiments</li>
+              <li><strong>Jazz Hands for Autism:</strong> Built optimization model for student-to-class matching using performance data, preferences, and instructor availability</li>
+              <li><strong>Orsulic Lab:</strong> Created database-backed platform linking front-end and back-end workflows for medical research operations</li>
+              <li><strong>UCLA Housing/BruinShack:</strong> Web scraped housing listings and conducted survey analysis to improve off-campus student housing discovery</li>
+              <li><strong>Achievable:</strong> Examined student usage data to identify actions correlated with learning outcomes</li>
+            </ul>
+          </div>
+
+          <a href="https://ucladatares.com/teams/consulting/" target="_blank" rel="noopener noreferrer" className="nsdc-website-link" style={{ marginTop: '1.5rem' }}>
+            View DataRes Consulting →
+          </a>
+          <div style={{ marginTop: '1.5rem', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+            <img src="/datares.jpeg" alt="DataRes Consulting Team" style={{ width: '70%', maxWidth: '600px', borderRadius: '8px', maxHeight: '200px', objectFit: 'cover' }} />
+            <p style={{ textAlign: 'center', color: '#888', fontSize: '0.9rem', marginTop: '0.5rem', fontStyle: 'italic' }}>DataRes Consulting Team</p>
+          </div>
         </div>
       </section>
 

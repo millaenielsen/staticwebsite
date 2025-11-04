@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion'
+import { Link } from 'react-router-dom'
 import '../App.css'
 
 function Projects() {
@@ -85,9 +86,14 @@ function Projects() {
               <span className="tag">PyTorch</span>
               <span className="tag">Computer Vision</span>
             </div>
-            <a href="https://github.com/millaenielsen/imaging-biomarkers" target="_blank" rel="noopener noreferrer" className="project-link">
-              View on GitHub →
-            </a>
+            <div className="project-links-group">
+              <Link to="/projects/alzheimer-biomarkers" className="project-link primary">
+                Learn More →
+              </Link>
+              <a href="https://github.com/millaenielsen/imaging-biomarkers" target="_blank" rel="noopener noreferrer" className="project-link secondary">
+                GitHub
+              </a>
+            </div>
           </motion.div>
 
           <motion.div className="project-card featured" variants={cardVariants}>
@@ -107,9 +113,14 @@ function Projects() {
               <span className="tag">OpenAI Whisper</span>
               <span className="tag">Evaluation Metrics</span>
             </div>
-            <a href="https://github.com/millaenielsen/whisper_rose" target="_blank" rel="noopener noreferrer" className="project-link">
-              View on GitHub →
-            </a>
+            <div className="project-links-group">
+              <Link to="/projects/whisper-russian-speech" className="project-link primary">
+                Learn More →
+              </Link>
+              <a href="https://github.com/millaenielsen/whisper_rose" target="_blank" rel="noopener noreferrer" className="project-link secondary">
+                GitHub
+              </a>
+            </div>
           </motion.div>
 
           <motion.div className="project-card" variants={cardVariants}>

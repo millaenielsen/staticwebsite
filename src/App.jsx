@@ -4,6 +4,8 @@ import Footer from './components/Footer'
 import BackToTop from './components/BackToTop'
 import Home from './pages/Home'
 import Projects from './pages/Projects'
+import AlzheimerProject from './pages/AlzheimerProject'
+import WhisperProject from './pages/WhisperProject'
 import './App.css'
 
 function App() {
@@ -13,6 +15,8 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/projects" element={<Projects />} />
+        <Route path="/projects/alzheimer-biomarkers" element={<AlzheimerProject />} />
+        <Route path="/projects/whisper-russian-speech" element={<WhisperProject />} />
       </Routes>
       <Footer />
       <BackToTop />
