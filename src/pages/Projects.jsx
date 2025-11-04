@@ -38,6 +38,29 @@ function Projects() {
           </p>
         </motion.div>
 
+        {/* Currently Researching Section */}
+        <motion.div
+          className="currently-researching"
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6, delay: 0.2 }}
+        >
+          <div className="research-badge">Currently Researching</div>
+          <h2 className="research-title">Whale Shark Migration Patterns</h2>
+          <p className="research-description">
+            Investigating why and when whale sharks choose to migrate and identifying the most important factors
+            in predicting whale shark migration patterns. Using machine learning models to analyze environmental,
+            biological, and oceanographic data to better understand these magnificent creatures' movement behaviors
+            and contribute to marine conservation efforts.
+          </p>
+          <div className="project-tags">
+            <span className="tag">Machine Learning</span>
+            <span className="tag">Marine Biology</span>
+            <span className="tag">Predictive Modeling</span>
+            <span className="tag">Conservation</span>
+          </div>
+        </motion.div>
+
         <motion.div
           className="projects-grid"
           variants={containerVariants}
@@ -46,6 +69,7 @@ function Projects() {
         >
 
           <motion.div className="project-card featured" variants={cardVariants}>
+            <img src="/imaging_biomarkers_project.png" alt="Alzheimer's Neuroimaging Biomarkers" className="project-image" />
             <div className="project-header">
               <h3>Alzheimer's Neuroimaging Biomarkers</h3>
               <span className="project-language">Python • Jupyter Notebook</span>
@@ -67,6 +91,7 @@ function Projects() {
           </motion.div>
 
           <motion.div className="project-card featured" variants={cardVariants}>
+            <img src="/whisper_project.png" alt="Russian Speech Recognition Benchmarking" className="project-image" />
             <div className="project-header">
               <h3>Russian Speech Recognition Benchmarking</h3>
               <span className="project-language">Python</span>
@@ -88,6 +113,7 @@ function Projects() {
           </motion.div>
 
           <motion.div className="project-card" variants={cardVariants}>
+            <img src="/CTR_project_picture.png" alt="Click-Through Rate Prediction" className="project-image" />
             <div className="project-header">
               <h3>Click-Through Rate Prediction</h3>
               <span className="project-language">Python • Jupyter Notebook</span>
@@ -107,6 +133,7 @@ function Projects() {
           </motion.div>
 
           <motion.div className="project-card" variants={cardVariants}>
+            <img src="/f1_project_picture.png" alt="Formula 1 Statistical Analysis" className="project-image" />
             <div className="project-header">
               <h3>Formula 1 Statistical Analysis</h3>
               <span className="project-language">R • SQL</span>
@@ -127,6 +154,7 @@ function Projects() {
           </motion.div>
 
           <motion.div className="project-card" variants={cardVariants}>
+            <img src="/election_prediction_project.png" alt="2020 US Election Prediction" className="project-image" />
             <div className="project-header">
               <h3>2020 US Election Prediction</h3>
               <span className="project-language">R</span>
@@ -146,6 +174,7 @@ function Projects() {
           </motion.div>
 
           <motion.div className="project-card" variants={cardVariants}>
+            <img src="/crab_prediction_project.png" alt="Crab Age Prediction" className="project-image" />
             <div className="project-header">
               <h3>Crab Age Prediction</h3>
               <span className="project-language">R</span>

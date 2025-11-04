@@ -13,7 +13,7 @@ function Home() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6 }}
       >
-        <img src="/profile-pic.png" alt="Milla Nielsen" className="profile-pic" />
+        <img src="/Milla_graduation_photo.jpeg" alt="Milla Nielsen" className="profile-pic" />
         <h1>Hi, I'm Milla Nielsen!</h1>
         <p className="tagline">Data Scientist Passionate About Using AI for Good</p>
         <p className="intro">
@@ -65,6 +65,10 @@ function Home() {
           <p className="awards">
             <strong>Awards:</strong> UCLA ASA DataFest 2024 Finalist, UCLA ASA DataFest 2023 Best Use of External Data (Honorable Mention)
           </p>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))', gap: '1rem', marginTop: '1.5rem' }}>
+            <img src="/datafest_2024_group_selfie.jpeg" alt="DataFest 2024 team" style={{ width: '100%', borderRadius: '8px', objectFit: 'cover', minHeight: '300px', maxHeight: '350px' }} />
+            <img src="/Datafest_2023_picture.png" alt="DataFest 2023" style={{ width: '100%', borderRadius: '8px', objectFit: 'cover', minHeight: '300px', maxHeight: '350px' }} />
+          </div>
         </div>
       </section>
 
@@ -100,6 +104,7 @@ function Home() {
             <li>Engineered biomarker features with 3D CNN (PyTorch, transfer learning) and optimized XGBoost via cross-validation + hyperparameter tuning</li>
             <li>Assessed performance with ROC analysis and statistical validation, contributing findings to conference paper</li>
           </ul>
+          <img src="/Milla_at_SPIE_medical_imaging_with_my_poster.png" alt="Presenting at SPIE Medical Imaging 2025" style={{ width: '100%', borderRadius: '8px', marginTop: '1rem', maxHeight: '400px', objectFit: 'contain' }} />
         </div>
 
         <div className="experience-item">
@@ -161,6 +166,7 @@ function Home() {
           <a href="https://doi.org/10.1117/12.3046952" target="_blank" rel="noopener noreferrer" className="publication-link">
             View Publication →
           </a>
+          <img src="/picture_of_my_poster_at_SPIE.jpeg" alt="Research poster at SPIE Medical Imaging" style={{ width: '100%', borderRadius: '8px', marginTop: '1rem', maxHeight: '500px', objectFit: 'contain' }} />
         </div>
       </section>
 
